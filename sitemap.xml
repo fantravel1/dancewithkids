@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://dancewithkids.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dancewithkids.com/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://dancewithkids.com/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/acerca-de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/a-propos/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/acerca-de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/acerca-de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/a-propos/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/a-propos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/acerca-de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/a-propos/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tutorials -->
+  <url>
+    <loc>https://dancewithkids.com/tutorials/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/tutorials/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/tutoriales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/tutoriels/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/tutoriales/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/tutorials/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/tutoriales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/tutoriels/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/tutoriels/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/tutorials/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/tutoriales/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/tutoriels/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Hub -->
+  <url>
+    <loc>https://dancewithkids.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/blog/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/blog/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/blog/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://dancewithkids.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/contact/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/contacto/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/contact/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/contact/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://dancewithkids.com/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/preguntas-frecuentes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/foire-aux-questions/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/preguntas-frecuentes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/preguntas-frecuentes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/foire-aux-questions/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/foire-aux-questions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/preguntas-frecuentes/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/foire-aux-questions/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Safety -->
+  <url>
+    <loc>https://dancewithkids.com/safety/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/safety/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/seguridad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/securite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/seguridad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/safety/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/seguridad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/securite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/securite/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/safety/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/seguridad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/securite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Family Mode -->
+  <url>
+    <loc>https://dancewithkids.com/family-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/family-mode/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/modo-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/mode-famille/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/modo-familiar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/family-mode/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/modo-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/mode-famille/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/mode-famille/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/family-mode/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/modo-familiar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/mode-famille/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Skills -->
+  <url>
+    <loc>https://dancewithkids.com/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/skills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/habilidades/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/competences/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/habilidades/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/skills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/habilidades/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/competences/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/competences/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/skills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/habilidades/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/competences/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Challenges -->
+  <url>
+    <loc>https://dancewithkids.com/challenges/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/challenges/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/desafios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/defis/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/desafios/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/challenges/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/desafios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/defis/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/defis/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/challenges/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/desafios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/defis/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Schools -->
+  <url>
+    <loc>https://dancewithkids.com/schools/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/schools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/escuelas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/ecoles/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/escuelas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/schools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/escuelas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/ecoles/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/ecoles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/schools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/escuelas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/ecoles/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Events -->
+  <url>
+    <loc>https://dancewithkids.com/events/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/events/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/eventos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/evenements/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/eventos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/events/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/eventos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/evenements/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/evenements/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/events/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/eventos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/evenements/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Careers -->
+  <url>
+    <loc>https://dancewithkids.com/careers/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/careers/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/carreras/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/carrieres/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/carreras/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/careers/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/carreras/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/carrieres/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/carrieres/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/careers/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/carreras/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/carrieres/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Press -->
+  <url>
+    <loc>https://dancewithkids.com/press/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/prensa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/presse/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/prensa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/prensa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/presse/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/presse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/press/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/prensa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/presse/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Community -->
+  <url>
+    <loc>https://dancewithkids.com/community/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/community/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/comunidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/communaute/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/comunidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/community/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/comunidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/communaute/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/communaute/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/community/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/comunidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/communaute/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Dance Styles - Pop -->
+  <url>
+    <loc>https://dancewithkids.com/styles/pop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/pop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/pop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/pop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/pop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/pop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/pop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/pop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/pop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/pop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/pop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/pop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dance Styles - Hip Hop -->
+  <url>
+    <loc>https://dancewithkids.com/styles/hiphop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/hiphop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/hiphop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/hiphop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/hiphop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/hiphop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/hiphop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/hiphop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/hiphop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/hiphop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/hiphop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/hiphop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dance Styles - Afrobeat -->
+  <url>
+    <loc>https://dancewithkids.com/styles/afrobeat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/afrobeat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/afrobeat/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/afrobeat/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/afrobeat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/afrobeat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/afrobeat/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/afrobeat/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/afrobeat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/afrobeat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/afrobeat/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/afrobeat/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dance Styles - Latin -->
+  <url>
+    <loc>https://dancewithkids.com/styles/latin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/latin/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/latin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/latin/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/latin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/latin/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/latin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/latin/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/latin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/latin/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/latin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/latin/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dance Styles - K-Pop -->
+  <url>
+    <loc>https://dancewithkids.com/styles/kpop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/kpop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/kpop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/kpop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/kpop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/kpop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/kpop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/kpop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/kpop/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/kpop/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/kpop/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/kpop/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dance Styles - Freestyle -->
+  <url>
+    <loc>https://dancewithkids.com/styles/freestyle/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/freestyle/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/freestyle/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/freestyle/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/freestyle/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/freestyle/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/freestyle/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/freestyle/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/freestyle/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/freestyle/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/freestyle/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/freestyle/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dance Styles - Instrumental -->
+  <url>
+    <loc>https://dancewithkids.com/styles/instrumental/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/instrumental/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/instrumental/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/instrumental/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/styles/instrumental/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/instrumental/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/instrumental/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/instrumental/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/styles/instrumental/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/styles/instrumental/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/styles/instrumental/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/styles/instrumental/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Levels - Easy -->
+  <url>
+    <loc>https://dancewithkids.com/levels/easy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/easy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/facil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/facile/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/niveles/facil/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/easy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/facil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/facile/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/niveaux/facile/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/easy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/facil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/facile/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Levels - Moderate -->
+  <url>
+    <loc>https://dancewithkids.com/levels/moderate/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/moderate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/moderado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/moyen/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/niveles/moderado/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/moderate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/moderado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/moyen/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/niveaux/moyen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/moderate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/moderado/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/moyen/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Levels - Hard -->
+  <url>
+    <loc>https://dancewithkids.com/levels/hard/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/hard/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/dificil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/difficile/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/niveles/dificil/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/hard/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/dificil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/difficile/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/niveaux/difficile/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/levels/hard/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/niveles/dificil/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/niveaux/difficile/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Legal - Privacy -->
+  <url>
+    <loc>https://dancewithkids.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/confidentialite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/privacidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/confidentialite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/confidentialite/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/confidentialite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Legal - Terms -->
+  <url>
+    <loc>https://dancewithkids.com/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/terminos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/conditions/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/terminos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/terminos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/conditions/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/conditions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/terminos/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/conditions/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Legal - Accessibility -->
+  <url>
+    <loc>https://dancewithkids.com/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/accesibilidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/accessibilite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/accesibilidad/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/accesibilidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/accessibilite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/accessibilite/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/accesibilidad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/accessibilite/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Legal - Cookies -->
+  <url>
+    <loc>https://dancewithkids.com/cookies/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/cookies/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/es/cookies/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/cookies/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/fr/cookies/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dancewithkids.com/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dancewithkids.com/es/cookies/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dancewithkids.com/fr/cookies/"/>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Blog Articles (EN only) -->
+  <url>
+    <loc>https://dancewithkids.com/blog/confidence-shy-children/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/blog/rainy-day-dance-games/</loc>
+    <lastmod>2026-02-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/blog/science-of-rhythm/</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/blog/family-dance-night-guide/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/blog/global-dance-traditions/</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dancewithkids.com/blog/dance-emotional-regulation/</loc>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
