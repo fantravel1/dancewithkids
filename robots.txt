@@ -1,0 +1,20 @@
+# DanceWithKids - robots.txt
+# https://dancewithkids.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://dancewithkids.com/sitemap.xml
+
+# Disallow admin and internal paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_internal/
+
+# Allow all language versions
+Allow: /es/
+Allow: /fr/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

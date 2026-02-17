@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dance Tutorials Library — 500+ Safe, Progressive Dance Routines for Kids</title>
-  <meta name="description" content="Browse 500+ kid-safe dance tutorials organized by difficulty level, style, and age group. Find the perfect dance routine for your child with easy filtering, ratings, and quick previews.">
+  <meta name="description" content="Browse 500+ kid-safe dance tutorials organized by difficulty level, style, and age group. Watch real video tutorials and find the perfect dance routine for your child.">
   <meta name="keywords" content="dance tutorials for kids, easy dance routines, dance lessons for children, hip hop tutorial kids, freestyle dance, beginner dance">
   <link rel="canonical" href="https://dancewithkids.com/tutorials/">
   <link rel="alternate" hreflang="en" href="https://dancewithkids.com/tutorials/">
@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="x-default" href="https://dancewithkids.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Dance Tutorials Library — 500+ Dance Routines for Kids">
-  <meta property="og:description" content="Browse and filter 500+ safe dance tutorials by difficulty, style, and age. Find your next dance routine.">
+  <meta property="og:description" content="Browse and filter 500+ safe dance tutorials by difficulty, style, and age. Watch real video tutorials.">
   <meta property="og:url" content="https://dancewithkids.com/tutorials/">
   <meta property="og:site_name" content="DanceWithKids">
   <meta property="og:image" content="https://images.unsplash.com/photo-1547153760-18fc86324498?w=1200&h=630&fit=crop">
@@ -23,12 +23,122 @@
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1547153760-18fc86324498?w=1200&h=630&fit=crop">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/styles.css">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"CollectionPage","name":"DanceWithKids Tutorials Library","description":"Collection of 500+ safe dance tutorials for kids","url":"https://dancewithkids.com/tutorials/"}
   </script>
+  <style>
+    .video-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: all var(--transition);
+    }
+    .video-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+    .video-card .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      background: var(--dark);
+    }
+    .video-card .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .video-card-body {
+      padding: 20px;
+    }
+    .video-card-body h4 {
+      margin: 0 0 8px;
+      color: var(--dark);
+      font-size: 1.05em;
+    }
+    .video-card-body p {
+      color: var(--text-light);
+      font-size: 0.9em;
+      margin: 0 0 12px;
+      line-height: 1.5;
+    }
+    .video-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 0.8em;
+      margin-bottom: 8px;
+    }
+    .video-meta .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 10px;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.85em;
+    }
+    .tag-easy { background: #E6F9F5; color: var(--accent2); }
+    .tag-moderate { background: #FFF8E1; color: #D4A017; }
+    .tag-hard { background: #FDEAEC; color: var(--accent3); }
+    .tag-style { background: var(--gray100); color: var(--text); }
+    .video-channel {
+      font-size: 0.8em;
+      color: var(--text-light);
+      font-weight: 600;
+    }
+    .category-section {
+      margin-bottom: 56px;
+    }
+    .category-section h3 {
+      font-size: 1.5em;
+      margin-bottom: 8px;
+      color: var(--dark);
+    }
+    .category-section > p {
+      color: var(--text-light);
+      margin-bottom: 24px;
+      font-size: 1em;
+    }
+    .tutorials-video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .quick-nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 32px;
+    }
+    .quick-nav a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.2);
+      color: var(--white);
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.9em;
+      border: 1px solid rgba(255,255,255,0.3);
+      backdrop-filter: blur(5px);
+      transition: all var(--transition);
+    }
+    .quick-nav a:hover {
+      background: rgba(255,255,255,0.35);
+      transform: translateY(-2px);
+    }
+  </style>
 </head>
 <body>
   <a href="#main" class="skip-link">Skip to main content</a>
@@ -42,10 +152,10 @@
       </a>
       <nav class="nav-links" role="navigation" aria-label="Main navigation">
         <a href="/">Home</a>
-        <a href="/tutorials/">Tutorials</a>
-        <a href="#blog">Blog</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="/tutorials/" class="active">Tutorials</a>
+        <a href="/blog/">Blog</a>
+        <a href="/about/">About</a>
+        <a href="/contact/">Contact</a>
       </nav>
       <div class="lang-switcher">
         <button class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select language">🇺🇸 EN ▾</button>
@@ -62,9 +172,9 @@
   <div class="mobile-menu" role="dialog" aria-label="Mobile navigation">
     <a href="/">Home</a>
     <a href="/tutorials/">Tutorials</a>
-    <a href="#blog">Blog</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a href="/blog/">Blog</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
   </div>
 
   <!-- Hero -->
@@ -73,124 +183,298 @@
     <div class="hero-overlay"></div>
     <div class="hero-shapes"><div class="shape shape-1"></div><div class="shape shape-2"></div><div class="shape shape-3"></div></div>
     <div class="hero-content">
-      <h1>Find Your Perfect Dance</h1>
-      <p class="subtitle">Browse 500+ safe, progressive tutorials organized by difficulty, style, age, and duration.</p>
-      <div class="tutorials-search" style="margin-top: 32px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
-        <input type="text" placeholder="Search routines..." aria-label="Search tutorials" style="padding: 12px 20px; border-radius: 8px; border: none; width: 100%; max-width: 400px; font-size: 1em;">
+      <h1>Watch &amp; Dance Along</h1>
+      <p class="subtitle">Real video tutorials from top kids dance channels. Press play, follow along, and let the joy begin.</p>
+      <div class="quick-nav">
+        <a href="#easy">🌱 Easy</a>
+        <a href="#moderate">⭐ Moderate</a>
+        <a href="#latin">💃 Latin</a>
+        <a href="#pop">🎵 Pop</a>
+        <a href="#freestyle">🎨 Freestyle</a>
       </div>
     </div>
   </section>
 
   <main id="main">
 
-    <!-- Filter & Browse Section -->
-    <section class="section tutorials-browse" aria-labelledby="browse-heading">
+    <!-- Easy / Beginner Tutorials -->
+    <section class="section" id="easy" aria-labelledby="easy-heading">
       <div class="container">
-        <h2 id="browse-heading" style="display: none;">Browse Tutorials</h2>
+        <div class="category-section">
+          <h3 id="easy-heading">🌱 Easy — Perfect for Beginners</h3>
+          <p>Simple moves, big fun! These tutorials are ideal for ages 3-6 and absolute beginners of any age.</p>
+          <div class="tutorials-video-grid">
 
-        <div class="filter-section">
-          <h3 style="margin-bottom: 24px;">Filter by:</h3>
-          <div class="filter-grid">
-            <div class="filter-group">
-              <label style="font-weight: 600; margin-bottom: 12px; display: block;">Difficulty</label>
-              <div style="display: flex; flex-direction: column; gap: 10px;">
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="easy"> 🌱 Easy (3-6 yrs)</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="moderate"> ⭐ Moderate (6-10 yrs)</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="hard"> 🔥 Hard (9+)</label>
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/JWTyO8npkOQ" title="Easy Kids Hip Hop Choreography — Ages 4+" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">🎵 Hip Hop</span>
+                </div>
+                <h4>Easy Kids Hip Hop Choreography</h4>
+                <p>A hip hop dance tutorial designed for young kids ages 4+. Simple moves broken down step by step so children can follow along easily.</p>
+                <span class="video-channel">Ages 4+ · Follow-Along</span>
               </div>
             </div>
 
-            <div class="filter-group">
-              <label style="font-weight: 600; margin-bottom: 12px; display: block;">Style</label>
-              <div style="display: flex; flex-direction: column; gap: 10px;">
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="pop"> Pop</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="hiphop"> Hip Hop</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="afrobeat"> Afrobeat</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="latin"> Latin</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="kpop"> K-Pop</label>
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/2UcZWXvgMZE" title="Freeze Dance — The Kiboomers" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">🎨 Freestyle</span>
+                </div>
+                <h4>Freeze Dance Party</h4>
+                <p>Dance when the music plays, freeze when it stops! A classic game that builds motor skills, listening, and social-emotional awareness.</p>
+                <span class="video-channel">The Kiboomers · Ages 2-6</span>
               </div>
             </div>
 
-            <div class="filter-group">
-              <label style="font-weight: 600; margin-bottom: 12px; display: block;">Duration</label>
-              <div style="display: flex; flex-direction: column; gap: 10px;">
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="1-2"> 1-2 minutes</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="3-5"> 3-5 minutes</label>
-                <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;"><input type="checkbox" value="6plus"> 6+ minutes</label>
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/-0Xn4kd8xqY" title="KIDZ BOP Kids — Old Town Road Dance Along" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">🎵 Pop</span>
+                </div>
+                <h4>Old Town Road — Dance Along</h4>
+                <p>A kid-friendly dance-along with simplified choreography. Mirror the KIDZ BOP dancers and learn the moves at home or in the classroom.</p>
+                <span class="video-channel">KIDZ BOP · All Ages</span>
               </div>
             </div>
-          </div>
-          <button class="btn btn-primary" style="margin-top: 24px;">Apply Filters</button>
-        </div>
 
-        <!-- Tutorial Cards Grid -->
-        <div class="tutorials-grid" style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px;">
-          <!-- Sample tutorial cards -->
-          <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease;">
-            <img src="https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=500&h=280&fit=crop" alt="Pop Dance Tutorial" style="width: 100%; height: 200px; object-fit: cover;">
-            <div style="padding: 20px;">
-              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.85em; color: #999;">
-                <span>🌱 Easy</span>
-                <span>•</span>
-                <span>2 min</span>
-                <span>•</span>
-                <span>🎵 Pop</span>
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/H9IO6a3yGjM" title="Dynamite — GoNoodle" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <h4 style="margin: 0 0 8px 0; color: #0E0E1A;">Rainbow Pop Party</h4>
-              <p style="color: #666; font-size: 0.9em; margin: 0 0 12px 0;">A colorful bouncing routine with call-and-response sections perfect for groups.</p>
-              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-                <span style="color: #FF6B9D;">⭐⭐⭐⭐⭐</span>
-                <span style="color: #999; font-size: 0.85em;">4.9 (320 reviews)</span>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">🎵 Pop</span>
+                </div>
+                <h4>Dynamite — Brain Break Dance</h4>
+                <p>High-energy dance-along from GoNoodle, used in 4 out of 5 US public elementary schools. Perfect as a brain break or exercise activity.</p>
+                <span class="video-channel">GoNoodle · Ages 4-10</span>
               </div>
-              <a href="#" class="btn btn-primary btn-sm">Dance Now</a>
             </div>
-          </div>
 
-          <!-- More cards would be populated dynamically -->
-          <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease;">
-            <img src="https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=500&h=280&fit=crop" alt="Hip Hop Tutorial" style="width: 100%; height: 200px; object-fit: cover;">
-            <div style="padding: 20px;">
-              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.85em; color: #999;">
-                <span>⭐ Moderate</span>
-                <span>•</span>
-                <span>5 min</span>
-                <span>•</span>
-                <span>🎵 Hip Hop</span>
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/qBO8jLLp5wY" title="Dinosaur Stomp — Creative Movement" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <h4 style="margin: 0 0 8px 0; color: #0E0E1A;">Groove Street Foundation</h4>
-              <p style="color: #666; font-size: 0.9em; margin: 0 0 12px 0;">Master essential hip hop moves with this foundational routine.</p>
-              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-                <span style="color: #FF6B9D;">⭐⭐⭐⭐⭐</span>
-                <span style="color: #999; font-size: 0.85em;">4.8 (287 reviews)</span>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">🎨 Freestyle</span>
+                </div>
+                <h4>Dinosaur Stomp — Creative Movement</h4>
+                <p>Stomp like a T-Rex, fly like a pteranodon! A 15-minute creative dance lesson with warm-up and cool-down included.</p>
+                <span class="video-channel">Move Dance Learn · Ages 3-7</span>
               </div>
-              <a href="#" class="btn btn-primary btn-sm">Dance Now</a>
             </div>
-          </div>
 
-          <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: all 0.3s ease;">
-            <img src="https://images.unsplash.com/photo-1590377547993-49e9e5f21aef?w=500&h=280&fit=crop" alt="Afrobeat Tutorial" style="width: 100%; height: 200px; object-fit: cover;">
-            <div style="padding: 20px;">
-              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 0.85em; color: #999;">
-                <span>⭐ Moderate</span>
-                <span>•</span>
-                <span>4 min</span>
-                <span>•</span>
-                <span>🎵 Afrobeat</span>
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/hEq-SfVImgc" title="KIDZ BOP Kids — Abracadabra Dance Along" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <h4 style="margin: 0 0 8px 0; color: #0E0E1A;">Afrobeat Joy Session</h4>
-              <p style="color: #666; font-size: 0.9em; margin: 0 0 12px 0;">Celebrate African rhythms with hip movements and grounded footwork.</p>
-              <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
-                <span style="color: #FF6B9D;">⭐⭐⭐⭐⭐</span>
-                <span style="color: #999; font-size: 0.85em;">4.9 (156 reviews)</span>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">🎵 Pop</span>
+                </div>
+                <h4>Abracadabra — Dance Along</h4>
+                <p>A fun, upbeat dance-along with kid-friendly choreography. Kids mirror the KIDZ BOP dancers to this catchy pop track.</p>
+                <span class="video-channel">KIDZ BOP · All Ages</span>
               </div>
-              <a href="#" class="btn btn-primary btn-sm">Dance Now</a>
             </div>
+
           </div>
         </div>
+      </div>
+    </section>
 
-        <div style="text-align: center; margin-top: 48px; padding: 40px; background: #F5F7FA; border-radius: 16px;">
-          <p style="color: #666; margin-bottom: 16px;">Showing 3 of 500+ routines</p>
-          <a href="#" class="btn btn-primary btn-lg">Load More Tutorials</a>
+    <!-- Moderate / Intermediate Tutorials -->
+    <section class="section" id="moderate" style="background: var(--light);" aria-labelledby="moderate-heading">
+      <div class="container">
+        <div class="category-section">
+          <h3 id="moderate-heading">⭐ Moderate — Level Up Your Moves</h3>
+          <p>Coordination combos, rhythm changes, and real choreography for dancers ages 6-10 who are ready for more.</p>
+          <div class="tutorials-video-grid">
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/sHd2s_saYsQ" title="KIDZ BOP 30+ Minute Dance Along Compilation" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-moderate">⭐ Moderate</span>
+                  <span class="tag tag-style">🎵 Pop</span>
+                </div>
+                <h4>30+ Minute Dance Along Compilation</h4>
+                <p>An extended dance session with multiple songs back to back. Follow-along choreography that keeps kids moving for a full workout.</p>
+                <span class="video-channel">KIDZ BOP · Ages 6-12</span>
+              </div>
+            </div>
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/2GjpXhCbTu0" title="Golden — Dance Along Tutorial (KIDZ BOP)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-moderate">⭐ Moderate</span>
+                  <span class="tag tag-style">🎵 K-Pop</span>
+                </div>
+                <h4>Golden — Dance Tutorial</h4>
+                <p>Step-by-step K-Pop inspired dance tutorial with simplified moves taught by KIDZ BOP dancers. Learn point choreography and formations.</p>
+                <span class="video-channel">KIDZ BOP · Ages 7-12</span>
+              </div>
+            </div>
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/ymigWt5TOV8" title="Zumba Kids — I Like to Move It" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-easy">🌱 Easy</span>
+                  <span class="tag tag-style">💃 Latin</span>
+                </div>
+                <h4>Zumba Kids — I Like to Move It</h4>
+                <p>High-energy Zumba fitness dance set to "I Like to Move It." Simple Latin-flavored moves that combine dance and exercise into pure fun.</p>
+                <span class="video-channel">Zumba with Dovydas · Ages 4-10</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latin & Dance Fitness -->
+    <section class="section" id="latin" aria-labelledby="latin-heading">
+      <div class="container">
+        <div class="category-section">
+          <h3 id="latin-heading">💃 Latin &amp; Dance Fitness</h3>
+          <p>Feel the rhythm with Latin-inspired dance fitness routines. Great energy, great moves, great for the whole family.</p>
+          <div class="tutorials-video-grid">
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/C4B7ZDi1P10" title="Dura — Daddy Yankee Easy Fitness Dance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-moderate">⭐ Moderate</span>
+                  <span class="tag tag-style">💃 Latin</span>
+                </div>
+                <h4>Dura — Daddy Yankee Fitness Dance</h4>
+                <p>One of YouTube's most popular kids dance videos (96M+ views). Easy-to-follow Latin dance fitness choreography that kids and teens love.</p>
+                <span class="video-channel">Saskia's Dansschool · Ages 7+</span>
+              </div>
+            </div>
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/9_QOYXTvQsA" title="Despacito — Easy Fitness Dance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-moderate">⭐ Moderate</span>
+                  <span class="tag tag-style">💃 Latin</span>
+                </div>
+                <h4>Despacito — Easy Fitness Dance</h4>
+                <p>Dance to the worldwide hit with simplified choreography. Kids and teens perform together in this uplifting, energetic routine.</p>
+                <span class="video-channel">Saskia's Dansschool · Ages 7+</span>
+              </div>
+            </div>
+
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/z1Xp5CWQquQ" title="Taki Taki — Easy Fitness Dance" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-card-body">
+                <div class="video-meta">
+                  <span class="tag tag-moderate">⭐ Moderate</span>
+                  <span class="tag tag-style">💃 Latin</span>
+                </div>
+                <h4>Taki Taki — Dance Fitness</h4>
+                <p>High-energy dance fitness choreography (47M+ views). Moves are repeated throughout for easy learning — pause and adjust playback speed to learn at your own pace.</p>
+                <span class="video-channel">Saskia's Dansschool · Ages 7+</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Styles CTA -->
+    <section class="section" style="background: linear-gradient(135deg, var(--secondary) 0%, #0066B3 100%); color: var(--white);">
+      <div class="container" style="text-align: center;">
+        <h2 style="color: white; margin-bottom: 16px;">Explore All Dance Styles</h2>
+        <p style="color: rgba(255,255,255,0.9); max-width: 600px; margin: 0 auto 32px;">From Pop to Hip Hop, Afrobeat to K-Pop — discover 500+ routines across 7 dance styles, all made safe and fun for kids.</p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+          <a href="/styles/pop/" class="btn btn-outline">Pop</a>
+          <a href="/styles/hiphop/" class="btn btn-outline">Hip Hop</a>
+          <a href="/styles/afrobeat/" class="btn btn-outline">Afrobeat</a>
+          <a href="/styles/latin/" class="btn btn-outline">Latin</a>
+          <a href="/styles/kpop/" class="btn btn-outline">K-Pop</a>
+          <a href="/styles/freestyle/" class="btn btn-outline">Freestyle</a>
+          <a href="/styles/instrumental/" class="btn btn-outline">Instrumental</a>
+        </div>
+        <div style="margin-top: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <a href="/levels/easy/" class="btn btn-primary btn-lg">Start with Easy</a>
+          <a href="/family-mode/" class="btn btn-secondary btn-lg">Try Family Mode</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Browse by Level -->
+    <section class="section" style="background: var(--light);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Browse by Difficulty Level</h2>
+          <p>Every dancer starts somewhere. Find the right level for your child and progress at their own pace.</p>
+        </div>
+        <div class="level-grid">
+          <div class="level-card easy">
+            <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=400&fit=crop" alt="Young child dancing" class="level-card-img" width="600" height="400" loading="lazy">
+            <div class="level-card-body">
+              <div class="level-card-icon">🌱</div>
+              <h3>Easy</h3>
+              <span class="age-tag">Ages 3-6 · Beginners</span>
+              <p>Simple repetition, big movements, and pure joy. 1-2 minute routines with follow-along mode.</p>
+              <a href="/levels/easy/" class="btn btn-ghost btn-sm">Explore Easy</a>
+            </div>
+          </div>
+          <div class="level-card moderate">
+            <img src="https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=600&h=400&fit=crop" alt="Kids jumping and dancing" class="level-card-img" width="600" height="400" loading="lazy">
+            <div class="level-card-body">
+              <div class="level-card-icon">⭐</div>
+              <h3>Moderate</h3>
+              <span class="age-tag">Ages 6-10</span>
+              <p>Coordination combos, rhythm changes, and 3-5 minute routines with directional transitions.</p>
+              <a href="/levels/moderate/" class="btn btn-ghost btn-sm">Explore Moderate</a>
+            </div>
+          </div>
+          <div class="level-card hard">
+            <img src="https://images.unsplash.com/photo-1535525153412-5a42439a210d?w=600&h=400&fit=crop" alt="Advanced young dancer" class="level-card-img" width="600" height="400" loading="lazy">
+            <div class="level-card-body">
+              <div class="level-card-icon">🔥</div>
+              <h3>Hard</h3>
+              <span class="age-tag">Ages 9+</span>
+              <p>Complex sequences, tempo variations, and freestyle sections for performance-ready dancers.</p>
+              <a href="/levels/hard/" class="btn btn-ghost btn-sm">Explore Hard</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -212,16 +496,37 @@
             <a href="#" aria-label="Twitter">🐦</a>
           </div>
         </div>
-        <div class="footer-col"><h4>Tutorials</h4><a href="/tutorials/">Browse All</a><a href="#">Easy Level</a><a href="#">Moderate Level</a><a href="#">Hard Level</a><a href="#">Family Mode</a></div>
-        <div class="footer-col"><h4>Resources</h4><a href="#">Blog</a><a href="#">Stories</a><a href="#">Community</a><a href="#">For Schools</a><a href="#">FAQ</a></div>
-        <div class="footer-col"><h4>Company</h4><a href="#">About Us</a><a href="#">Contact</a><a href="#">Careers</a><a href="#">Press</a><a href="#">Safety</a></div>
+        <div class="footer-col">
+          <h4>Tutorials</h4>
+          <a href="/tutorials/">Browse All</a>
+          <a href="/levels/easy/">Easy Level</a>
+          <a href="/levels/moderate/">Moderate Level</a>
+          <a href="/levels/hard/">Hard Level</a>
+          <a href="/family-mode/">Family Mode</a>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <a href="/blog/">Blog</a>
+          <a href="/community/">Community</a>
+          <a href="/schools/">For Schools</a>
+          <a href="/faq/">FAQ</a>
+          <a href="/events/">Events</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="/about/">About Us</a>
+          <a href="/contact/">Contact</a>
+          <a href="/careers/">Careers</a>
+          <a href="/press/">Press</a>
+          <a href="/safety/">Safety</a>
+        </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; 2024–2026 DanceWithKids. All rights reserved.</span>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Cookie Policy</a>
-        <a href="#">Accessibility</a>
+        <span>&copy; 2024-2026 DanceWithKids. All rights reserved.</span>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms of Service</a>
+        <a href="/cookies/">Cookie Policy</a>
+        <a href="/accessibility/">Accessibility</a>
       </div>
       <p class="footer-heart">Made with ❤️ for families worldwide</p>
     </div>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — DanceWithKids</title>
+  <meta name="description" content="Oops! This page doesn't exist. Let's get you back to dancing.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #94BBE9 0%, #FF6B9D 100%);
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .error-content {
+      max-width: 600px;
+    }
+    .error-icon {
+      font-size: 8em;
+      margin-bottom: 20px;
+      animation: bounce 2s ease-in-out infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+    .error-code {
+      font-family: 'Fredoka One', cursive;
+      font-size: 6em;
+      color: white;
+      margin: 0;
+      line-height: 1;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .error-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: 2em;
+      color: white;
+      margin: 20px 0 16px;
+    }
+    .error-message {
+      font-family: 'Nunito', sans-serif;
+      font-size: 1.15em;
+      color: rgba(255,255,255,0.9);
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    .error-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .error-btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 50px;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 1em;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .error-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    .error-btn-primary {
+      background: white;
+      color: #FF6B9D;
+    }
+    .error-btn-outline {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+    }
+    .error-suggestions {
+      margin-top: 50px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    .error-suggestions h3 {
+      font-family: 'Fredoka One', cursive;
+      color: white;
+      font-size: 1.3em;
+      margin-bottom: 20px;
+    }
+    .error-links {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .error-links a {
+      background: rgba(255,255,255,0.15);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 600;
+      font-size: 0.95em;
+      transition: background 0.2s;
+    }
+    .error-links a:hover {
+      background: rgba(255,255,255,0.3);
+    }
+    .error-lang {
+      margin-top: 30px;
+      font-family: 'Nunito', sans-serif;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.9em;
+    }
+    .error-lang a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .error-lang a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <div class="error-content">
+      <div class="error-icon">💃</div>
+      <p class="error-code">404</p>
+      <h1 class="error-title">Oops! This page missed a beat.</h1>
+      <p class="error-message">The page you're looking for doesn't exist or has moved to a new rhythm. Don't worry — there's plenty more dancing to do!</p>
+      <div class="error-actions">
+        <a href="/" class="error-btn error-btn-primary">Back to Home</a>
+        <a href="/tutorials/" class="error-btn error-btn-outline">Browse Tutorials</a>
+      </div>
+      <div class="error-suggestions">
+        <h3>Popular Pages</h3>
+        <div class="error-links">
+          <a href="/styles/pop/">Pop Dance</a>
+          <a href="/styles/hiphop/">Hip Hop</a>
+          <a href="/levels/easy/">Easy Level</a>
+          <a href="/family-mode/">Family Mode</a>
+          <a href="/blog/">Blog</a>
+        </div>
+      </div>
+      <div class="error-lang">
+        <a href="/es/">Espa&ntilde;ol</a> |
+        <a href="/fr/">Fran&ccedil;ais</a> |
+        <a href="/">English</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
