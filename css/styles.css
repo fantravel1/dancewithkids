@@ -1603,4 +1603,146 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); line-height: 1.2; col
 }
 .skeleton-text { height: 16px; margin-bottom: 8px; }
 .skeleton-heading { height: 28px; width: 60%; margin-bottom: 12px; }
+
+/* ============================================================
+   UPGRADE PHASE 1: BREADCRUMBS & NAVIGATION
+   ============================================================ */
+
+.breadcrumb {
+  font-size: 0.9em;
+  padding: 12px 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--gray200);
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb li {
+  display: inline;
+  margin-right: 0;
+}
+
+.breadcrumb li::after {
+  content: " / ";
+  margin: 0 8px;
+  color: var(--text-light);
+}
+
+.breadcrumb li:last-child::after {
+  display: none;
+}
+
+.breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.breadcrumb a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.breadcrumb [aria-current="page"] {
+  color: var(--text);
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .breadcrumb { font-size: 0.85em; }
+  .breadcrumb li::after { margin: 0 6px; }
+}
+
+/* ============================================================
+   UPGRADE PHASE 1: RELATED CONTENT SECTIONS
+   ============================================================ */
+
+.related-posts, .related-guides, .related-content {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid var(--gray200);
+}
+
+.related-posts h2, .related-guides h2, .related-content h2 {
+  margin-bottom: 32px;
+  font-size: 1.8em;
+}
+
+.posts-grid, .guides-grid, .content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.post-card, .guide-card, .content-card {
+  padding: 20px;
+  background: var(--gray100);
+  border-radius: var(--radius-md);
+  transition: all var(--transition);
+  border: 1px solid var(--gray200);
+}
+
+.post-card:hover, .guide-card:hover, .content-card:hover {
+  background: var(--white);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.post-card h3, .guide-card h3, .content-card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.2em;
+}
+
+.post-card h3 a, .guide-card h3 a, .content-card h3 a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.post-card h3 a:hover, .guide-card h3 a:hover, .content-card h3 a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.post-card p, .guide-card p, .content-card p {
+  color: var(--text-light);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.read-more, .explore-more {
+  display: inline-block;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all var(--transition);
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.read-more:hover, .explore-more:hover {
+  color: var(--primary-dark);
+  border-bottom-color: var(--primary-dark);
+}
+
+@media (max-width: 640px) {
+  .posts-grid, .guides-grid, .content-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .related-posts, .related-guides, .related-content {
+    margin-top: 40px;
+    padding-top: 24px;
+  }
+}
 .skeleton-image { height: 200px; width: 100%; }
